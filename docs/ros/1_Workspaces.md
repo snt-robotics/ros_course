@@ -4,7 +4,7 @@
 
 -	Source the main ros configuration (Access to ROS commands)
 	```bash
-	$ source /opt/ros/kinetic/setup.bash
+	$ source /opt/ros/your_ros_distro/setup.bash
 	```
 - Create your workspace folder and initialize it
 	```bash
@@ -33,8 +33,8 @@
 
 ## Change between workspaces
 ```bash
-	$ source /opt/ros/indigo/setup.bash
-	$ source your_pkg/devel/setup.bash
+	$ source /opt/ros/your_ros_distro/setup.bash
+	$ source your_ws/devel/setup.bash
 	$ printenv | grep ROS #Check the environment
 ```
 ## Structure of a workspace
